@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Traithlon.Model\Traithlon.Model.csproj" />
+      <ProjectReference Include="..\Triathlon.Networking\Triathlon.Networking.csproj" />
+      <ProjectReference Include="..\Triathlon.Services\Triathlon.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.7" />
+    </ItemGroup>
+
+</Project>

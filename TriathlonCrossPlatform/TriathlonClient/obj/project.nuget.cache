@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "T20Xm+Smb04=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tifle\\RiderProjects\\mpp-proiect-csharp-Tlarisa06\\TriathlonCrossPlatform\\TriathlonClient\\TriathlonClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tifle\\.nuget\\packages\\google.protobuf\\3.34.1\\google.protobuf.3.34.1.nupkg.sha512",
+    "C:\\Users\\tifle\\.nuget\\packages\\grpc.core.api\\2.76.0\\grpc.core.api.2.76.0.nupkg.sha512",
+    "C:\\Users\\tifle\\.nuget\\packages\\grpc.net.client\\2.76.0\\grpc.net.client.2.76.0.nupkg.sha512",
+    "C:\\Users\\tifle\\.nuget\\packages\\grpc.net.common\\2.76.0\\grpc.net.common.2.76.0.nupkg.sha512",
+    "C:\\Users\\tifle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tifle\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tifle\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.7\\system.configuration.configurationmanager.10.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Configuration.ConfigurationManager will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\tifle\\RiderProjects\\mpp-proiect-csharp-Tlarisa06\\TriathlonCrossPlatform\\TriathlonClient\\TriathlonClient.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\tifle\\RiderProjects\\mpp-proiect-csharp-Tlarisa06\\TriathlonCrossPlatform\\TriathlonClient\\TriathlonClient.csproj",
+      "libraryId": "System.Configuration.ConfigurationManager",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
+}

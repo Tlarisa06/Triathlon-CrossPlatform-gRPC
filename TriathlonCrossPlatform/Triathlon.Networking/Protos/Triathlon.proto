@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option java_package = "ro.mpp.triathlon.network.grpc";
+option java_multiple_files = true;
+
+package triathlon;
+
+message ParticipantDTO {
+  int32 idParticipant = 1;
+  string name = 2;
+  int32 points = 3;
+}
+
+message RefereeResponse {
+  int32 id = 1;
+  string name = 2;
+  int32 idEvent = 3;
+}
+
+message UserRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message AddResultRequest {
+  int32 idReferee = 1;
+  int32 idParticipant = 2;
+  int32 points = 3;
+}
+
+message EventIdRequest {
+  int32 idEvent = 1;
+}
+
+message UpdateResponse {
+  string message = 1;
+}
+
+service TriathlonGrpcService {
+  rpc Login(UserRequest) returns (RefereeResponse);
+  rpc Logout(RefereeResponse) returns (google.protobuf.Empty);
+  rpc GetParticipantsByEvent(EventIdRequest) returns (stream ParticipantDTO);
+  rpc AddResult(AddResultRequest) returns (google.protobuf.Empty);
+  rpc Subscribe(RefereeResponse) returns (stream UpdateResponse);
+}
+
+import "google/protobuf/empty.proto";

@@ -1,0 +1,4 @@
+rootProject.name = 'TriathlonServerJava'
+include 'Networking'
+include 'Common'
+include 'Server'

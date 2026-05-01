@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    // Plugin-ul gRPC poate rămâne aici doar cu 'apply false'
+    // sau îl definim direct în modulul Networking
+    id 'com.google.protobuf' version '0.9.4' apply false
+}
+
+allprojects {
+    group = 'ro.mpp.triathlon'
+    version = '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+// Nu pune dependențe aici, fiecare modul va avea propriile sale biblioteci

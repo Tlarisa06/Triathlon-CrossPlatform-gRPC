@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Triathlon.Services/1.0.0": {
+        "dependencies": {
+          "Traithlon.Model": "1.0.0"
+        },
+        "runtime": {
+          "Triathlon.Services.dll": {}
+        }
+      },
+      "Traithlon.Model/1.0.0": {
+        "runtime": {
+          "Traithlon.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Triathlon.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Traithlon.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
